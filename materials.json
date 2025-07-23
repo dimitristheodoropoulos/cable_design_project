@@ -1,0 +1,101 @@
+{
+    
+    "Copper": {
+        "resistivity_at_20C_ohm_m": 1.72e-8,
+        "alpha_temp_coeff": 0.00393,
+        "density_kg_m3": 8960,
+        "thermal_conductivity_W_mK": 398,
+        "max_operating_temp_C": 90,
+        "cost_per_kg_usd": 8.0,
+        "permeability_relative": 0.999991,
+        "conductivity_S_m": 5.8e7,
+        "k_shield_circulating_loss_factor": { 
+            "single_point": 0.1,
+            "multi_point": 0.25, 
+            "cross_bonded": 0.05 
+        },
+        "tensile_strength_MPa": 200,
+        "yield_strength_MPa": 70,
+        "youngs_modulus_GPa": 120,
+        "dielectric_constant_relative": 1.0,
+        "sccr_A": 65000
+    },
+    
+    "Aluminum": {
+        "resistivity_at_20C_ohm_m": 2.82e-8,
+        "alpha_temp_coeff": 0.00403,
+        "density_kg_m3": 2700,
+        "thermal_conductivity_W_mK": 205,
+        "max_operating_temp_C": 90,
+        "cost_per_kg_usd": 2.5,
+        "permeability_relative": 1.000022,
+        "conductivity_S_m": 3.5e7,
+        "k_shield_circulating_loss_factor": 0.08,
+        "sccr_A": 65000,
+        "tensile_strength_MPa": 100,
+        "yield_strength_MPa": 35,
+        "youngs_modulus_GPa": 70
+    },
+    "Steel": {
+        "thermal_conductivity_W_mK": 50,
+        "max_operating_temp_C": 400,
+        "cost_per_kg_usd": 0.8,
+        "permeability_relative": 100,
+        "conductivity_S_m": 1.0e7,
+        "tensile_strength_MPa": 400,
+        "yield_strength_MPa": 250,
+        "density_kg_m3": 7850,
+        "k_armor_loss_factor": 0.05
+    },
+    "XLPE": {
+        "thermal_conductivity_W_mK": 0.3,
+        "max_operating_temp_C": 90,
+        "cost_per_kg_usd": 3.0,
+        "dielectric_strength_kV_mm": 20,
+        "dielectric_constant_relative": 2.3,
+        "dissipation_factor_tan_delta": 0.0009,
+        "density_kg_m3": 920
+    },
+    "PVC": {
+        "thermal_conductivity_W_mK": 0.15,
+        "max_operating_temp_C": 70,
+        "cost_per_kg_usd": 1.5,
+        "dielectric_strength_kV_mm": 15,
+        "dielectric_constant_relative": 5.0,
+        "dissipation_factor_tan_delta": 0.07,
+        "density_kg_m3": 1400
+    },
+    "PE": {
+        "thermal_conductivity_W_mK": 0.35,
+        "max_operating_temp_C": 80,
+        "cost_per_kg_usd": 2.0,
+        "dielectric_strength_kV_mm": 18,
+        "dielectric_constant_relative": 2.25,
+        "dissipation_factor_tan_delta": 0.0005,
+        "density_kg_m3": 950
+    },
+    "Lead": {
+        "thermal_conductivity_W_mK": 35,
+        "max_operating_temp_C": 150,
+        "cost_per_kg_usd": 2.2,
+        "permeability_relative": 1.0,
+        "conductivity_S_m": 4.8e6,
+        "density_kg_m3": 11340
+    },
+    "Bitumen": {
+        "thermal_conductivity_W_mK": 0.3,
+        "max_operating_temp_C": 80,
+        "cost_per_kg_usd": 0.5,
+        "density_kg_m3": 1000
+    },
+    "Sand": {
+        "thermal_conductivity_W_mK": 0.9,
+        "resistivity_thermal_Km_W": 1.1,
+        "density_kg_m3": 1600
+    },
+    "Soil": {
+        "thermal_conductivity_W_mK": 1.0,
+        "resistivity_thermal_Km_W": 1.0,
+        "density_kg_m3": 1800
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "conductor_radius": 12.5,
+    "insulation_thickness": 8.0,
+    "sheath_thickness": 3.0,
+    "shield_thickness": 2.0,  
+    "armor_thickness": 4.0,
+    "overall_diameter": 56.0
+}
